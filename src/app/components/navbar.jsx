@@ -34,8 +34,8 @@ const toggleNavMenu = () => {
                     ))}
                 </ul>
                 <div className="hidden lg:flex justify-center space-x-12 items-center">
-                    <Link href="#" className="py-2 px-3 border rounded-md"> Sign In</Link>
-                    <Link href="#" className="bg-gradient-to-r from-purple-500 to-purple-800 py-2 px-3 border rounded-md"> Create an Account</Link>
+                    <Link href="#" className="py-2 px-3 border rounded-md  hover:rounded-3xl hover:border-purple-600"> Sign In</Link>
+                    <Link href="#" className="bg-gradient-to-r from-purple-500 to-purple-800 py-2 px-3 rounded-md hover:bg-none border hover:border-purple-600 hover:rounded-3xl"> Create an Account</Link>
                 </div>
                 <div className="lg:hidden md:flex flex-col justify-end">
                     <button onClick={toggleNavMenu}>{navMenuOpen ? <X /> : <Menu />}</button>
