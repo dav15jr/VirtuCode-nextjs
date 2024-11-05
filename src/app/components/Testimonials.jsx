@@ -1,9 +1,9 @@
-import Image from "next/image";
-import { testimonials } from "../constants"
+import Image from 'next/image';
+import { testimonials } from '../constants';
 
 export default function Testimonials() {
   return (
-<div className="mt-20 tracking-wide scroll-m-24" id="testimonials">
+    <div className="mt-20 tracking-wide scroll-m-24" id="testimonials">
       <h2 className="text-3xl sm:text-5xl lg:text-6xl text-center my-10 lg:my-20">
         What People are saying
       </h2>

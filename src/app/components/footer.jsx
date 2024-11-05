@@ -1,11 +1,7 @@
-
-import Link from "next/link";
-import { resourcesLinks, platformLinks, communityLinks } from "../constants";
-
+import Link from 'next/link';
+import { resourcesLinks, platformLinks, communityLinks } from '../constants';
 
 export default function Footer() {
-
-
   return (
     <footer className="max-w-7xl mx-auto pt-20 px-6 py-10 mt-10 border-t border-neutral-700">
       <div className="grid grid-cols-2 lg:grid-cols-3 gap-4">
@@ -57,4 +53,4 @@ export default function Footer() {
       </div>
     </footer>
   );
-};
+}
